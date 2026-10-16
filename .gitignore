@@ -1,0 +1,39 @@
+# Dependencies
+vendor/
+
+# Build output
+api
+*.exe
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Go build
+*.a
+*.b
+# Test outputs
+coverage.out
+
+# Deployment (bleibt lokal: interne IPs, Hostpfade)
+docker-compose.yml
+dev/backup_forum.sh
+
+# Interner Projektstand (Deutsch, nicht Teil der API-Doku)
+IMPLEMENTATION_SUMMARY.md
