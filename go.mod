@@ -1,6 +1,6 @@
 module forum-api
 
-go 1.22
+go 1.25.0
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
@@ -9,4 +9,4 @@ require (
 	github.com/lib/pq v1.10.9
 )
 
-require golang.org/x/crypto v0.31.0
+require golang.org/x/crypto v0.52.0
